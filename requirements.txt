@@ -1,0 +1,7 @@
+# package
+torch==1.10.2
+torchvision==0.11.3
+opencv-python==4.5.5.64
+opencv-python-headless==4.5.5.64
+matplotlib==3.5.1
+pillow==9.0.1
