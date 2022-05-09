@@ -15,7 +15,7 @@ Example: Classification dog and cat
   - dataset: 
       - dog
       - cat
-  - python split_dataset.py --path-dataset <path dataset> --path-save <dataset_split>
+  - python split_dataset.py --path-dataset <PathDataset> --path-save <PathSave>
 - else:
   - dataset:
     - train
@@ -32,9 +32,9 @@ Example: Classification dog and cat
   - from models.MobilenetV2 import mobilenet_v2
   - model = mobilenet_v2(pretrained=True, num_classes=2).to(device)
 - run training model
-  - python train.py --dataset <path dataset> --epochs <numbers epochs> --batch-size <size of batch> --image-size <size input>
+  - python train.py --dataset <PathDataset> --epochs <NumbersEpochs> --batch-size <SizeOfBatch> --image-size <SizeInput>
 ## Test
-- python test.py --file-folder <folder contain image> --folder-model <folder contain model>
+- python test.py --file-folder <FolderContainImage> --folder-model <FolderContainModel>
 ## Evaluate model
 - construct test folder example
 - test
