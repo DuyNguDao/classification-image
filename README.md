@@ -4,10 +4,10 @@ This is backbone use pretraining model deep learning with network mobilenetV2 an
 - Dao Duy Ngu
 - Le Van Thien
 ## Install
-### anaconda
+### Anaconda
 - conda create --name deep python=3.8
 - conda activate deep
-### package
+### Packages
 - pip install -r requirements.txt
 ## Construct dataset
 Example: Classification dog and cat
@@ -17,7 +17,7 @@ Example: Classification dog and cat
 - else:
   - dataset: train, val, test
     - train, val, test folder have two folder cat and dog
-## Train
+## Training
 - change numbers classes with variable num_classes in file train at line 18
   - from models.MobilenetV2 import mobilenet_v2
   - model = mobilenet_v2(pretrained=True, num_classes=2).to(device)
